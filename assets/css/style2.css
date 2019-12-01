@@ -133,6 +133,7 @@ hr {
   overflow:hidden;
   margin: 20px auto 0 auto;
   background-color: white;
+  margin-right: 50px;
 }
 
 .sidebar_container {
@@ -201,8 +202,15 @@ hr {
   width: 22%;
 } 
 
-.posts .posts_content {
+.posts  {
   font-size: 0.8em;
+}
+.post h2 {
+  
+}
+ul.post li {
+   font-size: 0.8em;
+   line-height: 0.8em;
 }
 
 /* Страница просмотра Сериалы */
@@ -320,10 +328,9 @@ hr {
 
 .info_film img {
   float: left;
-  margin-right: 2%;
-  border-radius: 5px;
   border: solid 5px #dad7d5;
   width: 25%;
+  text-align: bottom;
 }
 
 .button {
